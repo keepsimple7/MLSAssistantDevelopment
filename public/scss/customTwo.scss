@@ -1,0 +1,35 @@
+body{
+.menuActive{
+    text-decoration: none;
+    color:#0076ff !important;
+}}
+
+.listCustom{
+    &.listing-type{
+        display: flex;
+        .list-content{
+            flex: 1 !important;
+            .topFive{
+                top: 5px;
+            }
+        }
+        .list-thumb{
+            flex: 1 !important;
+        }
+    }
+}
+.cursor{
+    cursor: pointer;
+}
+
+
+.react-chatbot-kit-chat-container{
+    position: fixed !important;
+    bottom: 20px;
+    right: 20px;
+    z-index: 100;
+    width: 400px !important;
+    .react-chatbot-kit-chat-bot-message{
+        margin-left: unset !important;
+    }
+}
